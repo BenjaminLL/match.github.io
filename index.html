@@ -14,15 +14,17 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <!-- fontawesome: icon -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <!-- jQuery -->
+  <script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
 
-	<title>Purrfect Match</title>
+	<title>Perfect Match</title>
 </head>
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 fixed-top">
       
       <div class="container">
-        <a href="#" class="navbar-brand">Purrfect Match</a>        
+        <a href="#" class="navbar-brand">Perfect Match</a>        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,7 +47,7 @@
               <a href="#" class="nav-link">Sign Up <i class="fas fa-user-plus"></i></a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Login <i class="fas fa-user"></i></a>
+              <a href="#" class="nav-link" id="login">Login <i class="fas fa-user"></i></a>
             </li>
           </ul>
         </div>
@@ -58,21 +60,39 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<div id="content">
-					<h1>Purrfect Match</h1>
+					<h1>Perfect Match</h1>
 					<h3>The Only Human-Feline Dating App</h3>
 					<hr>
-					<button type="button" class="btn btn-light btn-lg"><i class="fas fa-paw"></i> Get Started</button>
+					<button type="button" class="btn btn-light btn-lg"><i class="fas fa-car"></i> Get Started</button>
 				</div>
 			</div>
 		</div>
 	</div>
 
+  <div id="abc">
+    <!-- Popup Div Starts Here -->
+    <div id="popupContact">
+      <!-- Login Form -->
+      <form action="#" id="form" method="post" name="form">
+      <img id="close" src="images/3.png" onclick ="div_hide()">
+      <h2>Sign In</h2>
+      <hr>
+      <input id="username" name="username" placeholder="Username" type="text">
+      <input id="password" name="password" placeholder="Password" type="password">
+      <textarea id="msg" name="message" placeholder="Message"></textarea>
+      <a href="javascript:%20check_empty()" id="submit">Send</a>
+      </form>
+    </div>
+    <!-- Popup Div Ends Here -->
+  </div>
 
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="assets/js/match.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
 </body>
 </html>
