@@ -3,19 +3,19 @@
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  	<!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   
-  <!-- Own css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-  <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <!-- fontawesome: icon -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-  <!-- jQuery -->
-  <script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
+  	<!-- Own css -->
+  	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  	<!-- google fonts -->
+  	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  	<!-- fontawesome: icon -->
+  	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  	<!-- jQuery -->
+  	<script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
 
 	<title>Perfect Match</title>
 </head>
@@ -69,19 +69,21 @@
 		</div>
 	</div>
 
-  <div id="abc">
+  <div id="pop_background">
     <!-- Popup Div Starts Here -->
-    <div id="popupContact">
-      <!-- Login Form -->
-      <form action="#" id="form" method="post" name="form">
-      <img id="close" src="images/3.png" onclick ="div_hide()">
-      <h2>Sign In</h2>
-      <hr>
-      <input id="username" name="username" placeholder="Username" type="text">
-      <input id="password" name="password" placeholder="Password" type="password">
-      <textarea id="msg" name="message" placeholder="Message"></textarea>
-      <a href="javascript:%20check_empty()" id="submit">Send</a>
-      </form>
+    <div id="login_popup">
+      <!-- SignIn Form -->
+      <form>
+	  	<div class="form-group">
+	      <label for="login_username">Username</label>
+	      <input type="text" class="form-control" id="login_username" placeholder="Username">
+    	</div>
+	    <div class="form-group">
+	      <label for="login_password">Password</label>
+	      <input type="password" class="form-control" id="login_password" placeholder="Password">
+	    </div>
+	    <button type="submit" class="btn btn-primary">Login</button>
+	  </form>
     </div>
     <!-- Popup Div Ends Here -->
   </div>

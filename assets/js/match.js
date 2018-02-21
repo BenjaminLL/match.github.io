@@ -9,10 +9,10 @@ function check_empty() {
 }
 
 //Function to Hide Popup
-function div_hide(){
-	document.getElementById('abc').style.display = "none";
+function pop_hide(){
+	$("#pop_background").css('display', 'none');
 }
 
 $("#login").on("click", function() {
-	$("#abc").css('display', 'block');
+	$("#pop_background").css('display', 'block');
 })
