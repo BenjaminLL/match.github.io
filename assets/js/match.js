@@ -15,4 +15,5 @@ function pop_hide(){
 
 $("#login").on("click", function() {
 	$("#pop_background").css('display', 'block');
+	$("#login_popup").css('display', 'block');
 })
