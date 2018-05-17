@@ -9,18 +9,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   
   <!-- Own css -->
-  <link rel="stylesheet" type="text/css" href="../assets/css/signUp.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/signUp.css">
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <!-- fontawesome: icon -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  <!-- jQuery -->
+  <script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
 
 	<title>Purrfect Match</title>
 </head>
 <body>
 	<nav class="navbar navbar-custom navbar-expand-lg navbar-light mb-4 fixed-top">
       <div class="container">
-        <a href="#" class="navbar-brand">Purrfect Match</a>        
+        <a href="#" class="navbar-brand" id="home_1">Purrfect Match</a>        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#" id="home_2">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -40,7 +42,7 @@
           
           <ul class="navbar-nav ml-auto navbar-right">
             <li class="nav-item  active">
-              <a href="#" class="nav-link"> <span class="sr-only">(current)</span>Sign Up <i class="fas fa-user-plus"></i></a>
+              <a href="#" class="nav-link" id="signup"> <span class="sr-only">(current)</span>Sign Up <i class="fas fa-user-plus"></i></a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Login <i class="fas fa-user"></i></a>
@@ -92,7 +94,8 @@
 	</div>
 
 
-<!-- Optional JavaScript -->
+    <script type="text/javascript" src="assets/js/link.js"></script>
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
