@@ -1,0 +1,55 @@
+body {
+	font-family: Lato;
+	color: rgb(89, 161, 191);
+}
+
+h4 {
+	font-weight: 10;
+	font-size: 1em;
+}
+
+#left-navbar {
+	padding-top: 8%;
+	background-color: yellow;
+	
+}
+
+.left-plane {
+	width: 20%;
+	margin-top: 5%;
+	
+}
+
+.right-plane {
+	width: 80%;
+	margin-top: 5%;
+	background-color: orange;
+}
+
+#top-navbar {
+	background-color: rgb(215, 238, 255);
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#avatar {
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	shape-margin: 5%;
+
+}
+
+.nav-pills {
+	text-align: center;
+}
+
+.briefInfo {
+	width: 90%;
+	margin-left: 5%;
+	background-color: rgb(242, 200, 292);
+	text-align: center;
+	text
+}
